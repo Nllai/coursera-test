@@ -1,0 +1,163 @@
+header{
+  text-align: center;
+}
+* {
+  box-sizing: border-box;
+}
+h1 {
+  margin-bottom: 35px;
+}
+p{
+  text-align: justify;
+  margin-left: 3%;
+  margin-right: 3%;
+
+}
+
+.chicken {
+  border: 1px solid black;
+  background-color: #FFB6C1;
+  width: 30%;
+  height: 20px;
+  margin: 0% 0% 0% 70%;
+  font-family: Helvetica;
+  color: black;
+  text-align: center;
+}
+
+.beef {
+  border: 1px solid black;
+  background-color: #A52A2A;
+  width: 30%;
+  height: 20px;
+  margin: 0% 0% 0% 70%;
+  font-family: Helvetica;
+  color: white;
+  text-align: center;
+}
+
+.sushi {
+  border: 1px solid black;
+  background-color: #F0E68C;
+  width: 30%;
+  height: 20px;
+  margin: 0% 0% 0% 70%;
+  font-family: Helvetica;
+  color: black;
+  text-align: center
+}
+
+/* Simple Responsive Framework. */
+.row {
+  width: 100%;
+  float:left;
+}
+/********** Large devices only **********/
+@media (min-width: 992px) {
+  .col-lg-1, .col-lg-2, .col-lg-3,.col-lg-4 {
+    float: left;
+    border: 1px solid black;
+    background-color: #D3D3D3;
+    margin: 1.625%;
+    margin-color: solid black;
+    height: 200px;
+  }
+  .col-lg-1 {
+    width: 8.33%;
+  }
+  .col-lg-2 {
+    width: 16.66%;
+  }
+  .col-lg-3 {
+    width: 25%;
+  }
+  .col-lg-4 {
+    width: 30%;
+ 
+
+  }
+}
+
+/********** Medium devices only **********/
+
+@media (min-width: 768px) and (max-width: 991px) {
+  .col-md-1, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6 {
+    float: left;
+    border: 1px solid black;
+    background-color: #D3D3D3;
+    margin: 1%;
+    height: 200px;
+  }
+  .col-md-1 {
+    width: 16.67%;
+  }
+  .col-md-2 {
+    width: 33.33%;
+  }
+  .col-md-3 {
+    width: 48%;
+  }
+  .col-md-4 {
+    width: 66.66%;
+  }
+  .col-md-5 {
+    width: 83.33%;
+  }
+  .col-md-6 {
+    width: 98%;
+  }
+
+}
+
+/********** Small devices only **********/
+
+@media (max-width: 767px) {
+  .col-sx-1, .col-sx-2, .col-sx-3, .col-sx-4, .col-sx-5, .col-sx-6, .col-sx-7, .col-sx-8, .col-sx-9, .col-sx-10, .col-sx-11, .col-sx-12 {
+    float: left;
+    border: 1px solid black;
+  }
+  .col-sx-1 {
+    width: 8.33%;
+  }
+  .col-sx-2 {
+    width: 16.66%;
+  }
+  .col-sx-3 {
+    width: 25%;
+  }
+  .col-sx-4 {
+    width: 30%;
+  }
+  .col-sx-5 {
+    width: 41.66%;
+  }
+  .col-sx-6 {
+    width: 50%;
+  }
+  .col-sx-7 {
+    width: 58.33%;
+  }
+  .col-sx-8 {
+    width: 66.66%;
+  }
+  .col-sx-9 {
+    width: 74.99%;
+  }
+  .col-sx-10 {
+    width: 83.33%;
+  }
+  .col-sx-11 {
+    width: 91.66%;
+  }
+  .col-sx-12 {
+    width: 98%;
+    background-color: #D3D3D3;
+    margin: 1%;
+    margin-color: solid black;
+    height: 200px;
+  }
+
+}
+
+
+
